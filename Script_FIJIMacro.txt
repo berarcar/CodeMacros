@@ -1,0 +1,10 @@
+run("8-bit");//run("Brightness/Contrast...");
+run("Set Measurements...", “area mean min median display redirect=None decimal=3");
+run("Measure");
+run("Close");
+run("ROI Manager...");//setTool("oval");
+waitForUser("Click OK to continue");
+roiManager("Multi Measure");
+roiManager("Show All");
+saveAs("Results", "Z:/Analyse TIRF Phluorin and deltapH/Results1.csv");
+roiManager("Save", "Z:/Analyse TIRF Phluorin and deltapH/RoiSet.zip");
