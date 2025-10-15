@@ -8,4 +8,4 @@ This file contains some commands to use the ImageJ software in order to extract 
  
 Script.R
 
-
+This R script performs an automatic extraction of measures of interest from .csv files in output.
