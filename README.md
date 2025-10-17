@@ -11,8 +11,8 @@ Script.R
 This R script performs an automatic extraction of measures of interest from .csv files.
 The input files are the.csv files given by ImageJ. 
 All the files must be in a unique directory. For each file, the script retrieves the columns of interest named "Mean1", "Mean2", etc., and calculates a normalized intensity in function of time. 
-The output is a file filled with the colums time and normalized intensities calculted for each input file.
+The output is a file filled with the colums "time" and "normalized intensities" calculted for each input file.
 
 TestR directory
 
-The TestR directory contains 2 examples files in .csv format on which the R script can be run.
+The TestR directory contains 2 examples files in .csv format on which the R script can be run. Each file contains the vesicles in row and all the measures in column.
