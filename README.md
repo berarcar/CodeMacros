@@ -8,4 +8,11 @@ This file contains some commands to use the ImageJ software in order to extract 
  
 Script.R
 
-This R script performs an automatic extraction of measures of interest from .csv files in output.
+This R script performs an automatic extraction of measures of interest from .csv files.
+The input files are the.csv files given by ImageJ. 
+All the files must be in a unique directory. For each file, the script retrieves the columns of interest named "Mean1", "Mean2", etc., and calculates a normalized intensity in function of time. 
+The output is a file filled with the colums time and normalized intensities calculted for each input file.
+
+TestR directory
+
+The TestR directory contains 2 examples files in .csv format on which the R script can be run.
