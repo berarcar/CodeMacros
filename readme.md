@@ -2,7 +2,7 @@ This folder contains an R script that quickly and automatically processes large 
 
 
 
-**FIJIMacro.txt**
+**Script_FIJIMacro.txt**
 
 
 
@@ -28,5 +28,6 @@ The TestR directory contains 2 example files in .csv format on which the R scrip
 **VideoTest.tif**
 
 This file is a small example video in format .tif from TIRF-M which can be used as the input file for the ImageJ software.
+
 
 
