@@ -6,7 +6,7 @@ This folder contains an R script that quickly and automatically processes large 
 
 
 
-This file contains some commands for using the ImageJ software in order to extract descriptive measures from a video file. The input file is a .lif video file from TIRF-M. You have to manually detect the exocytosis events by drawing circles around them. The setTool function measures values such as mean, minimum, maximum and median fluorescence intensity during time. The output file is a .csv file with the parameters listed in columns and time listed in rows.
+This file contains some commands for using the ImageJ software in order to extract descriptive measures from a video file. The input file is a .tif video file from TIRF-M. You have to manually detect the exocytosis events by drawing circles around them. The setTool function measures values such as mean, minimum, maximum and median fluorescence intensity during time. The output file is a .csv file with the parameters listed in columns and time listed in rows.
 
 
 
@@ -23,4 +23,10 @@ This R script performs an automatic extraction of measures of interest from .csv
 
 
 The TestR directory contains 2 example files in .csv format on which the R script can be run. Each file contains time and measures in rows.
+
+
+**VideoTest.tif**
+
+This file is a small example video in format .tif from TIRF-M which can be used as the input file for the ImageJ software.
+
 
